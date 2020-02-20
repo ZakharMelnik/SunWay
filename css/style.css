@@ -176,6 +176,8 @@ header .menu a {
 #catalog .product .slider {
 	position: relative;
 	overflow: hidden;
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 #catalog .product .slider .stock-item {

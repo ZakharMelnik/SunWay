@@ -46,7 +46,8 @@
 	#special-offers .title,
 	#catalog .title,
 	#scheme .title,
-	section#advantages .title {
+	section#advantages .title,
+	#special-offers h2.title {
 		font-size: 22px;
 	}
 	#catalog .product .title {
@@ -78,9 +79,84 @@
 	header .header-box .right a.contact-link {
 		font-size: 14px;
 	}
+	footer#footer div.right {
+		text-align: left;
+	}
+	footer#footer .payment {
+		align-items: flex-start;
+	}
+	#contact {
+		margin-bottom: 40px;
+	}
+	#certificate {
+		margin-bottom: 30px;
+	}
+	#special-offers .banner .title {
+		font-size: 22px;
+	}
+	#special-offers .banner {
+		height: 300px;
+	}
+	#catalog .product-info table tr th {
+		font-size: 18px;
+	}
+	#catalog .product-info table tr td {
+		font-size: 16px;
+	}
+	#catalog .product .title {
+		margin-bottom: 20px;
+	}
+	#scheme .countdown .left-text .title {
+		font-size: 28px;
+		margin-bottom: 5px;
+	}
+	#scheme .countdown .left-text .descr {
+		font-size: 14px;
+	}
+	#scheme .countdown .timer {
+		top: 10px;
+	}
+	#catalog .product-card .text {
+		display: flex;
+		    flex-direction: column;
+		    align-items: flex-start;
+		    justify-content: center;
+	}
 }
 
 @media (max-width: 520px) {
+	header .menu,
+	header .header-box .right {
+		display: none;
+	}
+	#banner h1.title {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#banner ul li {
+		font-size: 14px;
+	}
+	#banner ul {
+		margin-bottom: 20px;
+	}
+	#catalog .product-info table tr td {
+		font-size: 10px;
+	}
+	#catalog .product-info table tr th {
+		font-size: 14px;
+	}
+	#catalog .product .title {
+		font-size: 16px;
+	}
+	#catalog .product-card .container-img img {
+		width: 140px;
+	}
+	#catalog .product-card .text .title {
+		font-size: 16px;
+	}
+	#special-offers .banner .container-img {
+		display: none;
+	}
 
 }
 
